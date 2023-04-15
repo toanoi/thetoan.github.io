@@ -12,7 +12,7 @@
 <div class="container">
     <div class="title">Registration</div>
     <div class="content">
-        <form action="#">
+        <form>
             <div class="user-details">
                 <div class="input-box">
                     <span class="details">Full Name</span>
@@ -60,14 +60,15 @@
                 </div>
             </div>
             <div class="button">
-                <input type="submit" value="Register">
+                <!-- <input type="submit" value="Register"> -->
+                <button onclick="hi()" type="submit">register</button>
             </div>
         </form>
     </div>
 </div>
 <script>
-    if (register_success) {
-        window.location.href = "index.html";
+    const hi = () => {
+        window.location.href = "index.html ";
     }
 </script>
 
